@@ -146,4 +146,141 @@
 .primary-heading-bold {
     display: block;
 }
+.paragraph {
+    width: 50%;
+    font-size: 18px;
+}
+
+.section-2-button {
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.section-2-button:hover {
+    text-decoration: 3px solid underline !important;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .section-2 {
+        margin-top: 0px;
+    }
+
+    .primary-heading {
+        font-size: 42px;
+    }
+
+    .paragraph {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .section-2-button {
+        margin-top: 20px;
+    }
+
+    .section-2-button {
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 426px) {
+    .section-2 {
+        padding: 80px 0px 50px 0px;
+    }
+
+    .primary-heading {
+        font-size: 32px;
+    }
+
+    .paragraph {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .section-2-button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-2 {
+        padding: 80px 0px 20px 0px;
+    }
+
+    .primary-heading {
+        font-size: 24px;
+    }
+
+    .paragraph {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .section-2-button {
+        font-size: 12px;
+    }
+}
+
+/* SECTION NO 3 */
+
+.section-3 {
+    font-family: 'Roboto Slab', serif;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+}
+
+.section-3-inner-col-left,
+.section-3-inner-col-right {
+    z-index: 1;
+}
+
+.section-3-heading {
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 68px;
+}
+
+.sec3-images {
+    box-shadow: 4px 8px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.section-3-image-left {
+    margin-top: 60px;
+}
+
+.sec3-img-left,
+.sec3-img-right {
+    width: 550px;
+}
+
+.section-3-button-right {
+    margin-top: 40px;
+}
+
+.sec3-btn-right {
+    font-family: Roboto, sans-serif;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    letter-spacing: 2px;
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.sec3-btn-right:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    transform: translateY(-5px);
+}
+
+.sec3-btn-right:active {
+    transform: translateY(0px);
+}
+
+
 
