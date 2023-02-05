@@ -18,3 +18,8 @@
 * THEN I am taken to that deployed application
 * WHEN I resize the page or view the site on various screens and devices
 * THEN I am presented with a responsive layout that adapts to my viewport
+
+## Mock-Up
+* The following animation shows the web application's appearance and functionality:
+* <img width="960" alt="potfolio screenshot" src="https://user-images.githubusercontent.com/114631240/216843212-ea9b5f52-ccef-4cb1-9c69-65ac2deba535.png">
+* <img width="960" alt="portfolio screenshot1" src="https://user-images.githubusercontent.com/114631240/216843224-969ccc5e-c0de-4621-bbd5-fa2efaef1d0c.png">
